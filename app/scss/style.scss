@@ -2,7 +2,6 @@
 @use 'reset';
 @use 'fonts';
 
-
 html,
 body {
    background-color: vars.$bc-primary;
@@ -348,10 +347,26 @@ body {
    color: vars.$color-hover;
 }
 
-.js__gallery {
-   height: 858px;
-   background-color: #fff;
+.swiper {
    margin-bottom: 260px;
+}
+
+.swiper-wrapper {
+  height: 600px;
+}
+
+.swiper-slide {
+   text-align: center;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.swiper-slide img {
+   display: block;
+   height: 100%;
+   object-fit: cover;
 }
 
 .title {

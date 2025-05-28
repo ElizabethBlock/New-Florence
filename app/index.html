@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <link rel="stylesheet" href="css/style.min.css">
   <title>Florence</title>
 </head>
@@ -133,8 +135,17 @@
     </div>
   </div>
 
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="slide__img" src="images/slider1.jpg" alt="slide"></div>
+      <div class="swiper-slide"><img class="slide__img" src="images/slider2.jpg" alt="slide"></div>
+      <div class="swiper-slide"><img class="slide__img" src="images/slider3.jpg" alt="slide"></div>
+      <div class="swiper-slide"><img class="slide__img" src="images/slider4.jpg" alt="slide"></div>
+      <div class="swiper-slide"><img class="slide__img" src="images/slider5.jpg" alt="slide"></div>
+    </div>
 
-  <div class="js__gallery">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 
   </div>
 
@@ -195,18 +206,18 @@
 <footer class="footer">
    <div class="marquee__block">
       <div class="marquee__inner">
-        <div class="marquee__text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-        </div>
-        <div class="marquee__text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-          <img class="img__studio" src="images/studio.svg" alt="text">
-        </div>
+         <div class="marquee__text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+         </div>
+         <div class="marquee__text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+            <img class="img__studio" src="images/studio.svg" alt="text">
+         </div>
       </div>
-    </div>
+   </div>
 
    <div class="block__footer">
       <div class="container">
@@ -225,6 +236,7 @@
 
 </footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 
