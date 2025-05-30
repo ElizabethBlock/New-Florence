@@ -9,6 +9,7 @@ body {
    @extend %roboto-400;
    height: 100%;
    font-family: 'Roboto-ExtraLight';
+   font-weight: 700;
    font-size: 22px;
 }
 
@@ -225,7 +226,6 @@ body {
 
 .respond {
    margin: 0 0 10px 80px;
-   font-weight: 300;
 }
 
 .meet__inner {
@@ -352,7 +352,6 @@ body {
    &__text {
       font-size: 22px;
       line-height: 1.4;
-      font-weight: 400;
    }
 }
 
