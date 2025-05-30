@@ -555,6 +555,12 @@ body {
 
 @media (max-width: 1046px) {
 
+   .blog__block:hover .blog__text {
+      transform: translate(0, -50%);
+      color: vars.$color-hover;
+      text-decoration: underline;
+   }
+
    .header__bg::before {
       top: 268px;
       right: 79px;
@@ -577,8 +583,23 @@ body {
       bottom: 125px;
    }
 
+   .rotate__text-right:hover,
+   .rotate__text-left:hover {
+      text-decoration: underline;
+   }
+
+   .meet__rotate-link:hover {
+      transform: rotate(270deg);
+      text-decoration: underline;
+   }
+
    .gallery__img-left {
-      width: 95px;
+      width: 95%;
+   }
+
+   .social__item:hover .social__link {
+      transform: translate(0, -50%);
+      text-decoration: underline;
    }
 
    .our__idea {
@@ -852,7 +873,7 @@ body {
       font-size: 16px;
    }
 
-   
+
 
    .social__text {
       font-size: 16px;
@@ -1050,14 +1071,14 @@ body {
 
    .gallery__link-right {
       margin-left: 40%;
-  }
+   }
 
    .gallery__title {
       font-size: 15px;
       margin-bottom: 35px;
    }
 
-   
+
 }
 
 @media (max-width: 564px) {
@@ -1188,7 +1209,7 @@ body {
 
    .gallery__img-right {
       margin-bottom: 10px;
-  }
+   }
 
    .social {
       margin-bottom: 160px;
@@ -1196,7 +1217,7 @@ body {
 
    .social__content {
       width: 730px;
-  }
+   }
 
    .social__item {
       height: 16px;
@@ -1209,7 +1230,7 @@ body {
    .social__text {
       font-size: 13px;
       margin-top: -115px;
-  }
+   }
 
    .title {
       margin: 106px auto;
@@ -1274,8 +1295,10 @@ body {
    .social__block {
       margin-left: -30px;
    }
+
    .social__text {
-      font-size: 12px;}
+      font-size: 12px;
+   }
 
 }
 
